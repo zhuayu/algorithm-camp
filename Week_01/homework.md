@@ -22,12 +22,12 @@
 **请大家将此部分作业，放在本周学习总结中一并提交**
 
 ## 本周算法习题库：
-https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
-https://leetcode-cn.com/problems/rotate-array/
-https://leetcode-cn.com/problems/merge-two-sorted-lists/
-https://leetcode-cn.com/problems/merge-sorted-array/
-https://leetcode-cn.com/problems/two-sum/
-https://leetcode-cn.com/problems/move-zeroes/
-https://leetcode-cn.com/problems/plus-one/
-https://leetcode.com/problems/design-circular-deque
-https://leetcode.com/problems/trapping-rain-water/
+- https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
+- https://leetcode-cn.com/problems/rotate-array/
+- https://leetcode-cn.com/problems/merge-two-sorted-lists/
+- https://leetcode-cn.com/problems/merge-sorted-array/
+- https://leetcode-cn.com/problems/two-sum/
+- https://leetcode-cn.com/problems/move-zeroes/
+- https://leetcode-cn.com/problems/plus-one/
+- https://leetcode.com/problems/design-circular-deque
+- https://leetcode.com/problems/trapping-rain-water/
