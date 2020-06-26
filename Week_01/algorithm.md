@@ -11,22 +11,22 @@
 
 一维分为基础型和高级两大类：
 
-- 基础：数组、链表
-- 高级：栈、队列、双端队列、集合、映射
+- 基础：数组(array)、链表(linked list)
+- 高级：栈(stack)、队列(queue)、双端队列(deque)、集合(set)、映射(map)
 
 **二维数据结构**
 
 二维的数据结构都是从一维泛化而来的，当一个一维度的链表它的分叉有两个的时候，它就变成了一个二维数据结构，相当于树。基础的就树和图，高级的是在树图的基础上加了很多判断和约定，比如说二叉搜索树。
 
-基础：树、图
+基础：树(tree)、图(graph)
 
-高级：二叉搜索树、红黑树、堆、并查集、字典树
+高级：二叉搜索树(binary search tree)、红黑树(red-black tree)、堆(heap)、并查集(disjoint set)、字典树(Trie)
 
 **特殊数据结构**
 
 用于工程中特定的情景，比如说位运算和基于位运算得出的布隆过滤器
 
-特殊：位运算、布隆过滤器、缓存
+特殊：位运算(Bitwise)、布隆过滤器(Bloom filter)、缓存(LRU Cache)
 
 ## 算法八大点
 
@@ -35,11 +35,11 @@
 1. if-else、switch 逻辑的切换
 2. for、while 循环
 3. Recursion 递归
-4. 搜索、深度优先搜索、广度优先搜索
-5. 动态规划
-5. 二分查找
-6. 贪心
-7. 数学、几何
+4. 搜索(Search)、深度优先搜索(Depth first search)、广度优先搜索(Breadth first search)
+5. 动态规划(Dynamic Proramming)
+5. 二分查找(Binary Search)
+6. 贪心(Greedy)
+7. 数学(Math)、几何(Geometry)
 
 ## 课后作业
 绘制自己的数据结构和算法脑图
