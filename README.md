@@ -12,9 +12,8 @@
 
 ## 学习内容
 
-- [Week_00](./Week_00/README.md)
-- [Week_01](./Week_01/README.md)
-
+- [第 0 周 / 学前准备](./Week_00/README.md)
+- [第 1 周 / 算法与数据结构总览：数组、链表、栈、队列](./Week_01/README.md)
 
 ## 参考资源
 
