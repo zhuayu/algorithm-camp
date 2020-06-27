@@ -16,6 +16,10 @@
 
 可以理解为一个 Stack 和 Queue 的结合体，它的头和尾都可以进行元素的出和入。
 
+## Java Stack Queue 源码
+
+TBD
+
 ## 参考链接
 
 - [Java 的 PriorityQueue 文档](http://docs.oracle.com/javase/10/docs/api/java/util/PriorityQueue.html)
