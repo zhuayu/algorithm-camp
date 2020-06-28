@@ -15,6 +15,12 @@
 - [第 0 周 / 学前准备](./Week_00/README.md)
 - [第 1 周 / 算法与数据结构总览：数组、链表、栈、队列](./Week_01/README.md)
 
+## 刷题集合
+
+1. [移动零](./leetcode/283_move-zeroes.md)
+2. [盛最多水的容器](./leetcode/11_container-with-most-water.md)
+3. [爬楼梯](./leetcode/70_climbing-stairs.md)
+
 ## 参考资源
 
 课件链接:https://pan.baidu.com/s/1NBNdjXI0tjDzNKXf8fvaQQ  密码:kmxb
