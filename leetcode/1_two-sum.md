@@ -32,8 +32,9 @@ const twoSum = function(nums, target) {
 
 方法二：空间换时间，字典下标法
 
+
 ```javascript
-const twoSum = function(nums, target) {
+var twoSum = function(nums, target) {
   let result = [];
   let object = {};
   for (let i = 0; i <= nums.length - 1; i ++ ) {
@@ -42,12 +43,14 @@ const twoSum = function(nums, target) {
 
   for (let i = 0; i <= nums.length - 1; i ++ ) {
     const num = target - nums[i];
-    if(object[nums]) {
-      result = [i, object[nums]]
+    if(object[num] && object[num] !== i) {
+      result =  [i, object[num]]
+      break
     }
   }
   return result
 };
 ```
 
-> 有问题，[3, 3] 有重复的情况搞不定，字典没唯一。
+- object[num] 字典有这个值
+- object[num] !== i 防止自己等于自己
