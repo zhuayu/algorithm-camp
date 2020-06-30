@@ -34,19 +34,25 @@ const twoSum = function(nums, target) {
 
 
 ```javascript
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
 var twoSum = function(nums, target) {
-  let result = [];
-  let object = {};
-  for (let i = 0; i <= nums.length - 1; i ++ ) {
-    object[nums[i]] = i 
+  let map = new Map();
+  for (let i = 0; i <= nums.length - 1; i ++) {
+    map.set(nums[i], i);
   }
-
-  for (let i = 0; i <= nums.length - 1; i ++ ) {
-    const num = target - nums[i];
-    if(object[num] && object[num] !== i) {
-      result =  [i, object[num]]
+  let result = [];
+  for(let i = 0; i <= nums.length -1; i++) {
+    let diff = target - nums[i];
+    let index = map.get(diff);
+    if(index && index !== i) {
+      result = [i, index]
       break
     }
+  
   }
   return result
 };

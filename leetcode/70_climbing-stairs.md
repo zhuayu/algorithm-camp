@@ -64,15 +64,19 @@ const climbStairs = function(n) {
 方法 二：缓存叠加
 
 ```javascript
+/**
+ * @param {number} n
+ * @return {number}
+ */
 const climbStairs = function(n) {
-  if(n === 1) { return 1 }
-  if(n === 2) { return 2 }
-
+  if( n <= 2) {
+    return n
+  }
   let f1 = 1, f2 = 2, f3 = 3;
-  for (let i = 0; i <= n - 3; i ++) {
-    f3 = f2 + f1;
-    f1 = f2
-    f2 = f3
+  for(let i = 0; i <= n - 3; i ++) {
+    f3 = f1 + f2;
+    f1 = f2;
+    f2 = f3;
   }
   return f3
 };

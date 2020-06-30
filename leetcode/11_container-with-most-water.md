@@ -16,6 +16,8 @@
 
 方法 二：两边收敛
 
+> 注意数组收敛循环的语法
+
 ```javascript
 const maxArea = function(nums) {
   let max = 0;

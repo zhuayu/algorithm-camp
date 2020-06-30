@@ -46,6 +46,32 @@ var groupAnagrams = function(strs) {
     return data.map(i => strs[i])
   })
 };
+
+
+var groupAnagrams = function(strs) {
+  let map = new Map();
+  for(let i = 0; i <= strs.length - 1; i ++) {
+    let sortStr = strs[i].split('').sort().join('');
+    let sortStrValue = map.get(sortStr)
+    if(!sortStrValue) {
+      map.set(sortStr,[i])
+    }else {
+      sortStrValue.push(i);
+      map.set(sortStr, sortStrValue)
+    }
+  }
+
+  let mapValues = map.values();
+  let result = [];
+  for (let values of mapValues) {
+   let tmpValues = [];
+   for(let value of values) {
+     tmpValues.push(strs[value])
+   }
+   result.push(tmpValues)
+  }
+  return result
+};
 ```
 
 

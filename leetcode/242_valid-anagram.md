@@ -29,6 +29,7 @@
 
 1. 用 hash map 来存储每个单词和它对应的频次，然后对比两个 str 的属性和值都为 0。
 2. 用 hash map 来存储每个单词和它对应的频次，开始 str 加一，后面的 str 减一，判断是否所有 value 都为 0 。
+3. 排序判断，两个字符串进行排序，然后判断是否全等。
 
 ## 执行
 
@@ -68,5 +69,15 @@ var isAnagram = function(s, t) {
     }
   }
   return result
+};
+```
+
+方法三：排序判断
+
+```javascript
+var isAnagram = function(s, t) {
+  const sSortStr = s.split('').sort().join('');
+  const tSortStr = t.split('').sort().join('');
+  return sSortStr === tSortStr
 };
 ```
