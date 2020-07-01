@@ -22,7 +22,8 @@
 3. [爬楼梯](./leetcode/70_climbing-stairs.md)
 4. [两数之和](./leetcode/1_two-sum.md)
 5. [有效的字母异位词](./leetcode/242_valid-anagram.md)
-6. [字母异位词分组](./leetcode/49_group-anagrams)
+6. [字母异位词分组](./leetcode/49_group-anagrams.md)
+7. [二叉树的中序遍历](./leetcode/94_binary-tree-inorder-traversal.md)
 
 ## 参考资源
 

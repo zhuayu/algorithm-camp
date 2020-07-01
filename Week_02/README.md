@@ -7,7 +7,8 @@
 ## 解题
 
 - [有效的字母异位词](./../leetcode/242_valid-anagram.md)
-- [字母异位词分组](./../leetcode/49_group-anagrams)
+- [字母异位词分组](./../leetcode/49_group-anagrams.md)
+- [二叉树的中序遍历](./../leetcode/94_binary-tree-inorder-traversal.md)
 
 ## 感悟
 
