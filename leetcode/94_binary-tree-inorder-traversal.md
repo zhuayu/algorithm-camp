@@ -1,4 +1,5 @@
 # 二叉树的中序遍历
+> https://leetcode-cn.com/problems/binary-tree-inorder-traversal/
 
 ## 题目
 
@@ -40,18 +41,15 @@
  * @return {number[]}
  */
 
-var inorderTraversal = function(root) {
-  var result = [];
-  var degui = function(node) {
-    if(node.left) {
-      degui(node.left)
-    }
-    result.push(node.val)
-    if(node.right) {
-      degui(node.right)
-    }
-  }
-  root && degui(root);
-  return result
-};
+ var inorderTraversal = function(root) {
+   const result = [];
+   if(!root) return result; 
+   const recursiveFunc = (node) => {
+     if(node.left) recursiveFunc(node.left)
+     result.push(node.val)
+     if(node.right) recursiveFunc(node.right)
+   }
+   recursiveFunc(root)
+   return result
+ };
 ```
