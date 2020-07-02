@@ -24,6 +24,7 @@
 5. [有效的字母异位词](./leetcode/242_valid-anagram.md)
 6. [字母异位词分组](./leetcode/49_group-anagrams.md)
 7. [二叉树的中序遍历](./leetcode/94_binary-tree-inorder-traversal.md)
+8. [N叉树的前序遍历](./leetcode/589_n-ary-tree-preorder-traversal.md)
 
 ## 参考资源
 
