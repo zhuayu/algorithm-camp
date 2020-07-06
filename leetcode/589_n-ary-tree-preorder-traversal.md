@@ -1,4 +1,5 @@
 # N叉树的前序遍历
+> https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/
 
 ## 题目
 
@@ -39,13 +40,11 @@
 var preorder = function(root) {
     let result = [];
     if(!root) return result;
-    let recover = function(node) {
+    let recursive = function(node) {
       result.push(node.val);
-      if(node.children.length) {
-        node.children.forEach(itemNode => recover(itemNode))
-      }
+      node.children.forEach(itemNode => recursive(itemNode))
     }
-    recover(root);
+    recursive(root);
     return result
 };
 ```
