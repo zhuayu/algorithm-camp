@@ -25,12 +25,14 @@
 5. [有效的字母异位词](./leetcode/242_valid-anagram.md)
 6. [字母异位词分组](./leetcode/49_group-anagrams.md)
 7. [N叉树的前序遍历](./leetcode/589_n-ary-tree-preorder-traversal.md)
-8. [N叉树的后序遍历](./leetcode/589_n-ary-tree-preorder-traversal.md)
+8. [N叉树的后序遍历](./leetcode/509_n-ary-tree-postorder-traversal.md)
 9. [二叉树的前序遍历](./leetcode/144_binary-tree-preorder-traversal.md)
 10. [二叉树的中序遍历](./leetcode/94_binary-tree-inorder-traversal.md)
 11. [二叉树的后序遍历](./leetcode/145_binary-tree-postorder-traversal.md)
 12. [N叉树的层序遍历](./leetcode/429_n-ary-tree-level-order-traversal.md)
 13. [括号生成](./leetcode/22_generate-parentheses.md)
+14. [验证二叉搜索树](./leetcode/98_validate-binary-search-tree.md)
+15. [二叉树的最大深度](./leetcode/104_maximum-depth-of-binary-tree.md)
 
 ## 参考资源
 
