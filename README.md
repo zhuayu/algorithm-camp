@@ -14,6 +14,7 @@
 
 - [第 0 周 / 学前准备](./Week_00/README.md)
 - [第 1 周 / 算法与数据结构总览：数组、链表、栈、队列](./Week_01/README.md)
+- [第 2 周 / 哈希、映射、集合、树、图](./Week_02/README.md)
 
 ## 刷题集合
 
@@ -29,6 +30,7 @@
 10. [二叉树的中序遍历](./leetcode/94_binary-tree-inorder-traversal.md)
 11. [二叉树的后序遍历](./leetcode/145_binary-tree-postorder-traversal.md)
 12. [N叉树的层序遍历](./leetcode/429_n-ary-tree-level-order-traversal.md)
+13. [括号生成](./leetcode/22_generate-parentheses.md)
 
 ## 参考资源
 
