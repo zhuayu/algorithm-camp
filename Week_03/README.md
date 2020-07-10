@@ -6,6 +6,8 @@
 
 ## 解题
 - [括号生成](./../leetcode/22_generate-parentheses.md)
+- [验证二叉搜索树](./../leetcode/98_validate-binary-search-tree.md)
+- [二叉树的最大深度](./../leetcode/104_maximum-depth-of-binary-tree.md)
 
 ## 感悟
 

@@ -33,3 +33,40 @@
 解释: 输入为: [5,1,4,null,null,3,6]。
      根节点的值为 5 ，但是其右子节点值为 4 。
 ```
+
+## 思路
+
+1. 使用中序遍历，判断当前一项目是否比前一项大
+
+## 执行
+
+方法一：中序遍历
+
+```javascript
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @return {boolean}
+ */
+var isValidBST = function(root) {
+  let isBST = true;
+  const recursive = (node, arr) => {
+    if(!node) return
+    if(node.left) recursive(node.left, arr)
+    let preVal = arr[arr.length - 1];
+    if(preVal >= node.val) {
+      isBST = false;
+    }
+    arr.push(node.val)
+    if(node.right) recursive(node.right, arr)
+  }
+  recursive(root, []);
+  return isBST
+};
+```
