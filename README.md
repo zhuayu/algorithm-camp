@@ -18,23 +18,28 @@
 
 ## 刷题集合
 
-1. [移动零](./leetcode/283_move-zeroes.md)
-2. [盛最多水的容器](./leetcode/11_container-with-most-water.md)
-3. [爬楼梯](./leetcode/70_climbing-stairs.md)
-4. [两数之和](./leetcode/1_two-sum.md)
-5. [有效的字母异位词](./leetcode/242_valid-anagram.md)
-6. [字母异位词分组](./leetcode/49_group-anagrams.md)
-7. [N叉树的前序遍历](./leetcode/589_n-ary-tree-preorder-traversal.md)
-8. [N叉树的后序遍历](./leetcode/509_n-ary-tree-postorder-traversal.md)
-9. [二叉树的前序遍历](./leetcode/144_binary-tree-preorder-traversal.md)
-10. [二叉树的中序遍历](./leetcode/94_binary-tree-inorder-traversal.md)
-11. [二叉树的后序遍历](./leetcode/145_binary-tree-postorder-traversal.md)
-12. [N叉树的层序遍历](./leetcode/429_n-ary-tree-level-order-traversal.md)
-13. [括号生成](./leetcode/22_generate-parentheses.md)
-14. [验证二叉搜索树](./leetcode/98_validate-binary-search-tree.md)
-15. [二叉树的最大深度](./leetcode/104_maximum-depth-of-binary-tree.md)
+[x] - [移动零](./leetcode/283_move-zeroes.md)
+[x] - [盛最多水的容器](./leetcode/11_container-with-most-water.md)
+[x] - [爬楼梯](./leetcode/70_climbing-stairs.md)
+[x] - [两数之和](./leetcode/1_two-sum.md)
+[x] - [有效的字母异位词](./leetcode/242_valid-anagram.md)
+[x] - [字母异位词分组](./leetcode/49_group-anagrams.md)
+[x] - [N叉树的前序遍历](./leetcode/589_n-ary-tree-preorder-traversal.md)
+[x] - [N叉树的后序遍历](./leetcode/509_n-ary-tree-postorder-traversal.md)
+[x] - [二叉树的前序遍历](./leetcode/144_binary-tree-preorder-traversal.md)
+[x] - [二叉树的中序遍历](./leetcode/94_binary-tree-inorder-traversal.md)
+[x] - [二叉树的后序遍历](./leetcode/145_binary-tree-postorder-traversal.md)
+[x] - [N叉树的层序遍历](./leetcode/429_n-ary-tree-level-order-traversal.md)
+[x] - [括号生成](./leetcode/22_generate-parentheses.md)
+[x] - [验证二叉搜索树](./leetcode/98_validate-binary-search-tree.md)
+[x] - [二叉树的最大深度](./leetcode/104_maximum-depth-of-binary-tree.md)
+[x] - [Pow(x, n)](./leetcode/50_powx-n.md)
+[] - [子集](./leetcode/78_subsets.md)
+[] - [电话号码的字母组合](./leetcode/17_letter-combinations-of-a-phone-number.md)
+[] - [N 皇后](./leetcode/51_n-queens.md)
+[x] - [多数元素](./leetcode/169_submissions.md)
 
 ## 参考资源
 
-课件链接:https://pan.baidu.com/s/1NBNdjXI0tjDzNKXf8fvaQQ  密码:kmxb
+课件链接: https://pan.baidu.com/s/1NBNdjXI0tjDzNKXf8fvaQQ  密码:kmxb
 
