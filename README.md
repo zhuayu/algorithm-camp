@@ -34,9 +34,9 @@
 - [x] [验证二叉搜索树](./leetcode/98_validate-binary-search-tree.md)
 - [x] [二叉树的最大深度](./leetcode/104_maximum-depth-of-binary-tree.md)
 - [x] [Pow(x, n)](./leetcode/50_powx-n.md)
-- [] [子集](./leetcode/78_subsets.md)
-- [] [电话号码的字母组合](./leetcode/17_letter-combinations-of-a-phone-number.md)
-- [] [N 皇后](./leetcode/51_n-queens.md)
+- [ ] [子集](./leetcode/78_subsets.md)
+- [ ] [电话号码的字母组合](./leetcode/17_letter-combinations-of-a-phone-number.md)
+- [ ] [N 皇后](./leetcode/51_n-queens.md)
 - [x] [多数元素](./leetcode/169_submissions.md)
 
 ## 参考资源
