@@ -39,6 +39,7 @@
 - [ ] [电话号码的字母组合](./leetcode/17_letter-combinations-of-a-phone-number.md)
 - [ ] [N 皇后](./leetcode/51_n-queens.md)
 - [x] [多数元素](./leetcode/169_submissions.md)
+- [x] [二叉树的层序遍历](./leetcode/102_binary-tree-level-order-traversal.md)
 
 ## 参考资源
 
