@@ -40,6 +40,13 @@
 - [ ] [N 皇后](./leetcode/51_n-queens.md)
 - [x] [多数元素](./leetcode/169_submissions.md)
 - [x] [二叉树的层序遍历](./leetcode/102_binary-tree-level-order-traversal.md)
+- [ ] [最小基因变化](./leetcode/433_minimum-genetic-mutation.md)
+- [x] [在每个树行中找最大值](./leetcode/515_find-largest-value-in-each-tree-row.md)
+- [x] [岛屿数量](./leetcode/200_number-of-islands.md)
+- [ ] [单词接龙](./leetcode/127_word-ladder.md)
+- [ ] [单词接龙 II](./leetcode/126_word-ladder-ii.md)
+- [ ] [扫雷游戏](./leetcode/529_minesweeper.md)
+
 
 ## 参考资源
 
