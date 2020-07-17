@@ -25,6 +25,7 @@
 ## 思路
 
 1. 递归中把层级带下去
+2. 广度搜索
 
 ## 执行
 
@@ -53,6 +54,37 @@ var levelOrder = function(root) {
     }
   }
   recursiveFunc(root, 0);
+  return result
+};
+```
+
+方法二：广度优先搜索
+
+```javascript
+/**
+ * // Definition for a Node.
+ * function Node(val,children) {
+ *    this.val = val;
+ *    this.children = children;
+ * };
+ */
+
+/**
+ * @param {Node} root
+ * @return {number[][]}
+ */
+var levelOrder = function(root) {
+  let result = [], queue = [root];
+  if(!root) return [];
+  while(queue.length > 0) {
+    let level = [] ,n = queue.length;
+    for(let i = 0; i < n; i ++) {
+      let node = queue.pop();
+      level.push(node.val);
+      node.children.forEach(n => queue.unshift(n))
+    }
+    result.push(level)
+  }
   return result
 };
 ```
