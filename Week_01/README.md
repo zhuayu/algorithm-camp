@@ -13,6 +13,7 @@
 2. [盛最多水的容器](./../leetcode/11_container-with-most-water.md)
 3. [爬楼梯](./../leetcode/70_climbing-stairs.md)
 4. [两数之和](./../leetcode/1_two-sum.md)
+5. [三数之和](./../leetcode/15_3sum.md)
 
 ## 感悟
 
