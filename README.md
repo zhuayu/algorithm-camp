@@ -25,6 +25,7 @@
 - [x] [爬楼梯](./leetcode/70_climbing-stairs.md)
 - [x] [两数之和](./leetcode/1_two-sum.md)
 - [x] [三数之和](./leetcode/15_3sum.md)
+- [x] [四数之和](./leetcode/18_4sum.md)
 - [x] [有效的字母异位词](./leetcode/242_valid-anagram.md)
 - [x] [字母异位词分组](./leetcode/49_group-anagrams.md)
 - [x] [有效的括号](./leetcode/20_valid-parentheses.md)
