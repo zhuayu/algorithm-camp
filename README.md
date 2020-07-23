@@ -27,6 +27,7 @@
 - [x] [三数之和](./leetcode/15_3sum.md)
 - [x] [有效的字母异位词](./leetcode/242_valid-anagram.md)
 - [x] [字母异位词分组](./leetcode/49_group-anagrams.md)
+- [x] [有效的括号](./leetcode/20_valid-parentheses.md)
 - [x] [N叉树的前序遍历](./leetcode/589_n-ary-tree-preorder-traversal.md)
 - [x] [N叉树的后序遍历](./leetcode/509_n-ary-tree-postorder-traversal.md)
 - [x] [二叉树的前序遍历](./leetcode/144_binary-tree-preorder-traversal.md)
