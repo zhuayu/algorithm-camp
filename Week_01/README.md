@@ -15,6 +15,7 @@
 4. [两数之和](./../leetcode/1_two-sum.md)
 5. [三数之和](./../leetcode/15_3sum.md)
 6. [有效的括号](./../leetcode/20_valid-parentheses.md)
+7. [四数之和](./../leetcode/18_4sum.md)
 
 ## 感悟
 
