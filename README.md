@@ -50,6 +50,8 @@
 - [ ] [单词接龙](./leetcode/127_word-ladder.md)
 - [ ] [单词接龙 II](./leetcode/126_word-ladder-ii.md)
 - [ ] [扫雷游戏](./leetcode/529_minesweeper.md)
+- [x] [跳跃游戏](./leetcode/55_jump-game.md)
+- [x] [跳跃游戏 II](./leetcode/55_jump-game-ii.md)
 - [x] [x 的平方根](./leetcode/69_sqrtx.md)
 
 ## 参考资源
