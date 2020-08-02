@@ -56,6 +56,8 @@
 - [x] [跳跃游戏](./leetcode/55_jump-game.md)
 - [x] [跳跃游戏 II](./leetcode/45_jump-game-ii.md)
 - [x] [x 的平方根](./leetcode/69_sqrtx.md)
+- [x] [不同路径](./leetcode/62_unique-paths.md)
+
 
 ## 参考资源
 
