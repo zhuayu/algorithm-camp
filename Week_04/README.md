@@ -11,6 +11,8 @@
 - [x] [岛屿数量](./../leetcode/200_number-of-islands.md)
 - [x] [跳跃游戏](./../leetcode/55_jump-game.md)
 - [x] [跳跃游戏 II](./../leetcode/55_jump-game-ii.md)
+- [x] [二分查找](./../leetcode/704_binary-search.md)
+- [x] [有效的完全平方数](./../leetcode/367_valid-perfect-square.md)
 - [x] [x 的平方根](./../leetcode/69_sqrtx.md)
 
 ## 感悟
