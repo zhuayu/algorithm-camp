@@ -68,6 +68,9 @@
 - [ ] [零钱兑换](./leetcode/322_coin-change.md)
 - [ ] [打家劫舍](./leetcode/198_house-robber.md)
 - [ ] [买卖股票的最佳时机](./leetcode/121_best-time-to-buy-and-sell-stock.md)
+- [x] [实现 Trie (前缀树)](./leetcode/208_implement-trie-prefix-tree.md)
+- [ ] [单词搜索](./leetcode/97_word-search.md)
+- [ ] [单词搜索 II](./leetcode/212_word-search-ii.md)
 
 ## 参考资源
 
