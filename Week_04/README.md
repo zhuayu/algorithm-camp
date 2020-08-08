@@ -14,6 +14,7 @@
 - [x] [二分查找](./../leetcode/704_binary-search.md)
 - [x] [有效的完全平方数](./../leetcode/367_valid-perfect-square.md)
 - [x] [x 的平方根](./../leetcode/69_sqrtx.md)
+- [x] [搜索插入位置](./../leetcode/35_search-insert-position.md)
 
 ## 感悟
 

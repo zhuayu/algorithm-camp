@@ -58,6 +58,7 @@
 - [x] [二分查找](./leetcode/704_binary-search.md)
 - [x] [有效的完全平方数](./leetcode/367_valid-perfect-square.md)
 - [x] [x 的平方根](./leetcode/69_sqrtx.md)
+- [x] [搜索插入位置](./leetcode/35_search-insert-position.md)
 - [x] [不同路径](./leetcode/62_unique-paths.md)
 - [ ] [不同路径 II](./leetcode/63_unique-paths-ii.md)
 - [ ] [最长公共子序列](./leetcode/1143_longest-common-subsequence.md)
