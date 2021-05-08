@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>getInterSection</title>
+</head>
+<body>
+  <script type="text/javascript">
+    function getInterSection(...arrs) {
+      let minNumber = -Infinity;
+      let maxNumber = Infinity;
+      let flag = true;
+      for (let i = 0; i <= arrs.length - 1; i++) {
+        sortData = arrs[i].sort();
+        // 数组的最小值大于前一个最大值的区间，没有相交可能性
+        // 数组的最大值小于前一个最小值的区间，没有相交可能性
+        if(sortData[0] >= maxNumber || sortData[1] <= minNumber) {
+          flag = false;
+          break;
+        }
+        // 重叠区间的最小值为两个区间最小值中较大的数
+        // 重叠区间的最大值为两个区间最小值中较小的数
+        minNumber = (minNumber > sortData[0]) ? minNumber : sortData[0];
+        maxNumber = (maxNumber < sortData[1]) ? maxNumber : sortData[1];
+      }
+      return flag ? [minNumber, maxNumber] : null;
+    }
+    console.log('result 1:', getInterSection([5,2],[4,9],[3,6])); // [2, 4]
+    console.log('result 2:', getInterSection([1,7],[8,9])); // null
+    console.log('result 3:', getInterSection([1,7])); // [1, 7]
+    console.log('result 4:', getInterSection([1,2],[2,4])); // null
+    console.log('result 5:', getInterSection([1,3],[2,4])); // [2, 3]
+  </script>
+</body>
+</html>

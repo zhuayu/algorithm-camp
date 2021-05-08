@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+<script type="text/javascript">
+
+  // 思路：外层解码需要先解码内层，所以需要用到栈
+  // 1. 非 】推入栈中
+  // 2. 如果是 】获取【letter】里内容出栈
+  // 3. 获取 count 数字
+  // 4. 计算后重新入栈
+  function decodeString(s) {
+    const stack = [];
+
+    for (var i = 0; i <= s.length -1; i++) {
+      // 1. 入栈
+      let char = s.charAt(i);
+      if (char !== ']') {
+        stack.push(char)
+        continue
+      }
+      // debugger;
+      // 2. 获取 letter
+      let letter = '';
+      let popChar = '';
+      popChar = stack.pop();
+      while (popChar !== '[') {
+        letter = popChar + letter;
+        popChar = stack.pop()
+      }
+      // debugger;
+      // 3. 获取 count 数字
+      let num = '';
+      popChar = stack.pop()
+      while (!isNaN(popChar)) {
+        num = popChar + num;
+        popChar = stack.pop();
+      }
+      console.log(popChar);
+      // debugger;
+      // 4. 重新入栈
+      stack.push(popChar);
+      stack.push(letter.repeat(num))
+    }
+    return stack.join('');
+  }
+
+  // console.log(decodeString('3[a]2[bc]')) // aaabcbc
+  console.log(decodeString('3[a2[c]]')) // accaccacc
+  console.log(decodeString('2[abc]2[cd1[eq]d]fg')); // abcabccdeqdcdeqdfg
+</script>
+</body>
+</html>

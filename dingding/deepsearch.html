@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" #html>
+  <head>
+    <meta charset="utf-8">
+    <title>DeepSearch</title>
+  </head>
+  <body>
+    <div>
+      <span>f</span><span>o</span><span>o</span>
+    </div>
+  </body>
+</html>
+
+<script>
+  function getDomCount() {
+    let data = {
+      totalElementsCount: 0,
+      maxDOMTreeDepth: 0,
+      maxChildrenCount: 0,
+    };
+
+    function deepNode(node, deep) {
+      // 统计元素总数
+      data.totalElementsCount ++
+      // 统计最深度
+      data.maxDOMTreeDepth = Math.max(data.maxDOMTreeDepth, deep);
+      // 统计最大子元素个数（不包含孙元素）
+      data.maxChildrenCount = Math.max(data.maxChildrenCount, node.length);
+      // 深度递归
+      node.length && node.forEach(n => deepNode(n.childNodes, deep ++));
+    }
+    deepNode(document.documentElement.childNodes, 1);
+    return data;
+  }
+  console.log(getDomCount());
+</script>
